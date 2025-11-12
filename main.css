@@ -151,3 +151,44 @@ justify-self: center;
 
 }
 
+
+
+
+
+.item2 {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+
+.item2 {
+
+    display: flex;
+
+    margin-bottom: 30px;
+    justify-self: center;
+    background-color: #84a98c;
+    height: 20vh;
+
+
+
+
+
+    width: 45vw;
+    min-height: 75vh;
+    align-content: center;
+justify-content: center;
+    border-radius: 2vw;
+    margin-top: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
