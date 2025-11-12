@@ -19,7 +19,7 @@ allButtons.forEach(button => {
         const imageName = button.dataset.image;
 
 
-        mainImage.src = `/${imageName}.jpg`;
+        mainImage.src = `billeder/${imageName}.jpg`;
     });
 });
 
