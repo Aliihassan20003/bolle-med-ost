@@ -1,0 +1,153 @@
+h1{
+
+color: #CAD2C5;
+
+
+}
+header h1 {
+    color: #CAD2C5;
+    display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+
+
+
+}
+header{
+
+
+
+    align-content:space-between;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    list-style: none;
+}
+li button:hover {
+    background-color: #84a98c;
+    color: #535353;
+}
+
+li button {
+    border: none;
+    font-size: 1rem;
+    color: hsla(0, 5%, 80%, 0.80);
+    background-color: #535353;
+    border-width: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+
+#mainImage {
+    /* Styrer billedets maksimale bredde, f.eks. 400px */
+    width: 400px;
+
+    /* Vigtigt: sikrer, at billedet ikke bliver strukket */
+    height: auto;
+
+    /* Afstand, centrering, osv. */
+    margin-top: 20px;
+    display: block;
+    /* ... andre positioneringsregler ... */
+}
+
+
+
+
+
+body {
+    background-color: #2F3E46;
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+a, button {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+.grid-container {
+    display: grid;
+
+
+    grid-template-columns: 1fr 1fr;
+
+
+    gap: 30px;
+justify-content: center;
+
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.item {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+
+.item {
+
+display: flex;
+
+    margin-bottom: 30px;
+justify-self: center;
+    background-color: #84a98c;
+    height: 20vh;
+
+
+
+
+
+    width: 70vw;
+    min-height: 50vh;
+    align-content: center;
+
+    border-radius: 2vw;
+    margin-top: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+
+#mainImage{
+    width: 70vw;
+    min-height: 50vh;
+    align-content: center;
+    justify-self: center;
+    border-radius: 2vw;
+    margin-top: 0vh;
+
+    padding-bottom: 1vh;
+
+
+
+}
+
