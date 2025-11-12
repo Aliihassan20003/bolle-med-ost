@@ -15,14 +15,17 @@ const allButtons = document.querySelectorAll('button');
 allButtons.forEach(button => {
     button.addEventListener('click', () => {
 
-        console.log("trykket")
+        // Linje 38: Variabel defineres
+        mainHeading.textContent = button.textContent
+
+
+
+
+        // Opgave 2: Opdater billede (Bruger IKKE buttonText, men data-image)
         const imageName = button.dataset.image;
-
-
         mainImage.src = `billeder/${imageName}.jpg`;
     });
 });
-
 
 
 // 1. Vælg overskriften (hvis ID er "mainHeading")
@@ -35,11 +38,8 @@ allButtons.forEach(button => {
     button.addEventListener('click', () => {
 
         // Få teksten fra den klikkede knap (f.eks. "Top 10 (Bolle)")
-        const buttonText = button.textContent;
+        mainHeading.textContent = button.textContent;
 
-        // Opdater H1-overskriftens indhold.
-        mainHeading.textContent = buttonText;
-
-        // Billed-logikken er fjernet herfra!
+//
     });
 });
